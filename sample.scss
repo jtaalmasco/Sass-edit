@@ -1,0 +1,16 @@
+@import "node_modules/bourbon/app/assets/stylesheets/bourbon.scss";
+@import "node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #5f2020;
+$second:#ffffff;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+
+h1{
+ font-family: $helvetica;
+  font-size: modular-scalable(14px,  1);
+ @include border-image(url(/images/border.png) 27 repeat);
+}

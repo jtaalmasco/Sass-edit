@@ -1,0 +1,14 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "sample",
+  "main": "sample",
+  "scripts": {
+    "test": "sample"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bourbon": "^4.3.3"
+  }
+}
